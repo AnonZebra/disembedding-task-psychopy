@@ -39,6 +39,9 @@ Trial order is determined by the selected 'order group number' - see the 'order_
 
 All trial order specifications put all the 'popout' trials at the end of the experiment. All orders also ensure one each of 'repeat'(R)/'heap'(H)/'once'(O) trials occurs before any of the types may be presented. Lastly, all orders ensure that trials of the same type (except 'popout') never occur 'back-to-back'. E.g. 'R-H-O-H-O-R' is a valid order, but orders like 'R-H-O-O-H-R' or 'R-H-R-O-H-O' are avoided.
 
+## Stimuli
+Trial stimuli images are found in 'stimuli/trial'. Specifications regarding where targets are located (regions of interested, ROI's) are found in 'stimuli/stimuli_roi_coordinates.csv'.
+
 ## Translating the experiment
 Both written and recorded instructions are in Swedish. If you wish to translate the experiment: 
 
