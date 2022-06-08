@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.1.2">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': '', 'order_group_number': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="$experiment_mon" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="fileList" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="deg" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1280, 750]" valType="code" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$BG_COL" valType="str" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="disembedding_task" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="debug" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="intro">
+      <TextComponent name="text_intro">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="$TXT_SIZE_M" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_intro" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$INTRO_TXT" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_intro">
+        <Param val="rectangle_continue" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_intro" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="never" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="" valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$read_audio_sound_dict['read_intro']['dur']" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <CodeComponent name="code_intro">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="read_sound = read_audio_sound_dict[&quot;read_intro&quot;][&quot;sound&quot;];&amp;#10;read_dur = read_audio_sound_dict[&quot;read_intro&quot;][&quot;dur&quot;];&amp;#10;read_sound.play();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# fetch audio of read instructions and its duration&amp;#10;read_sound = read_audio_sound_dict['read_intro']['sound']&amp;#10;read_dur = read_audio_sound_dict['read_intro']['dur']&amp;#10;# start playing instructions&amp;#10;read_sound.play()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# if read instructions audio has finished playing&amp;#10;if tThisFlip &gt;= read_dur:&amp;#10;    rectangle_continue.draw()&amp;#10;    text_continue.draw()&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((tThisFlip &gt;= read_dur)) {&amp;#10;    rectangle_continue.draw();&amp;#10;    text_continue.draw();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_intro" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <SoundComponent name="sound_read_audio_intro">
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="sound_read_audio_intro" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_INTRO_FNAME)" valType="str" updates="constant" name="sound"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$READ_AUDIO_INTRO_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="AUDIO_VOLUME" valType="code" updates="constant" name="volume"/>
+      </SoundComponent>
+    </Routine>
+    <Routine name="train_2">
+      <CodeComponent name="code_train2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# reset counter of number of correct responses&amp;#10;correct_counter = 0&amp;#10;&amp;#10;# reset click counter&amp;#10;click_counter = 0&amp;#10;&amp;#10;# reset mouse save data attributes&amp;#10;mouse.x = []&amp;#10;mouse.y = []&amp;#10;mouse.time = []&amp;#10;&amp;#10;# reset variable indicating if routine is ready for showing&amp;#10;# continue button&amp;#10;ready_continue = False&amp;#10;&amp;#10;# reset continue button&amp;#10;rectangle_continue.opacity = 0&amp;#10;# empty continue text component's text, which is filled&amp;#10;# in once participant is allowed to continue&amp;#10;# (can't simply change opacity of thext text because of a PsychoPy bug)&amp;#10;text_continue.text = &quot;&quot;&amp;#10;&amp;#10;# reset list of cross drawing positions&amp;#10;cross_position_list.clear()&amp;#10;&amp;#10;# clear the list of ellipses stimuli, to make it ready for this trial&amp;#10;trial_ellipses.clear()&amp;#10;# specify the resize factor for this routine&amp;#10;resize_factor = TRAIN2_RESIZE_FACTOR&amp;#10;# specify the context x/y coordinate offsets&amp;#10;context_x = TRAIN2_CONTEXT_X&amp;#10;context_y = TRAIN2_CONTEXT_Y&amp;#10;# specify the target/context images' filenames (for filtering dataframe rows&amp;#10;# below, and updating image stimuli)&amp;#10;target_filename = &quot;train2_target.jpg&quot;&amp;#10;context_filename = 'train2_context.jpg'&amp;#10;&amp;#10;# find which row indices in the ellipses_df that correspond to this trial's&amp;#10;# target ellipses data&amp;#10;df_indices = list(ellipses_df[ellipses_df['filename'] == context_filename].index)&amp;#10;for index in df_indices:&amp;#10;    center_x = px_to_deg(ellipses_df.loc[index, 'center_x']) * resize_factor + context_x&amp;#10;    center_y = px_to_deg(ellipses_df.loc[index, 'center_y']) * resize_factor + context_y&amp;#10;    xaxis_r = px_to_deg(ellipses_df.loc[index, 'xaxis_r']) * resize_factor&amp;#10;    yaxis_r = px_to_deg(ellipses_df.loc[index, 'yaxis_r']) * resize_factor&amp;#10;    orientation = ellipses_df.loc[index, 'orientation']&amp;#10;    new_ellipsis = make_pp_ellipsis(&amp;#10;        center_x, &amp;#10;        center_y, &amp;#10;        xaxis_r, &amp;#10;        yaxis_r, &amp;#10;        orientation&amp;#10;    )&amp;#10;    new_ellipsis.correct = ellipses_df.loc[index, 'correct']&amp;#10;    if not new_ellipsis.correct:&amp;#10;        new_ellipsis.lineColor = [1,0,0]&amp;#10;    trial_ellipses.append(new_ellipsis)&amp;#10;&amp;#10;# make a shallow copy of ellipses list, from which ellipses&amp;#10;# will be plucked as soon as they are clicked&amp;#10;nonclicked_ellipses = [ell for ell in trial_ellipses if ell.correct]&amp;#10;&amp;#10;# update image stimuli&amp;#10;image_train_target.image = os.path.join(&quot;stimuli&quot;, &quot;train&quot;, target_filename)&amp;#10;image_train_target.pos=(TRAIN2_TARGET_X, TRAIN2_TARGET_Y)&amp;#10;image_train_target.size=(train2_target_width, train2_target_height)&amp;#10;image_train_context.image = os.path.join(&quot;stimuli&quot;, &quot;train&quot;, context_filename)&amp;#10;image_train_context.pos = (context_x, context_y)&amp;#10;image_train_context.size=(train2_context_width, train2_context_height)&amp;#10;&amp;#10;# update border stimuli&amp;#10;rect_train_target.size = (train2_target_width, train2_target_height)&amp;#10;rect_train_context.size = (train2_context_width, train2_context_height)&amp;#10;rect_train_target.pos=(TRAIN2_TARGET_X, TRAIN2_TARGET_Y)&amp;#10;rect_train_context.pos=(context_x, context_y)&amp;#10;&amp;#10;&amp;#10;# fetch audio of read instructions and its duration&amp;#10;read_sound_inst = read_audio_sound_dict['read_train2_inst']['sound']&amp;#10;read_dur_inst = read_audio_sound_dict['read_train2_inst']['dur']&amp;#10;# fetch audio of incorrect/correct messages and durations&amp;#10;read_sound_corr = read_audio_sound_dict['read_train2_corr']['sound']&amp;#10;read_dur_corr = read_audio_sound_dict['read_train2_corr']['dur']&amp;#10;read_sound_incorr = read_audio_sound_dict['read_train2_incorr']['sound']&amp;#10;read_dur_incorr = read_audio_sound_dict['read_train2_incorr']['dur']&amp;#10;# reset indicator of whether borders have switched to 'active' (responses&amp;#10;# welcome) color&amp;#10;active_borders = False&amp;#10;# reset indicator of whether feedback has started,&amp;#10;# and variable indicating start time of feedback&amp;#10;feedback_started = False&amp;#10;feedback_start_time = 9999&amp;#10;# start playing instructions&amp;#10;read_sound_inst.play()&amp;#10;# reset border colors to 'neutral'&amp;#10;rect_train_target.lineColor = TRAIN_BORDER_COL&amp;#10;rect_train_context.lineColor = TRAIN_BORDER_COL" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="image_train_target.draw()&amp;#10;image_train_context.draw()&amp;#10;rect_train_target.draw()&amp;#10;rect_train_context.draw()&amp;#10;rectangle_continue.draw()&amp;#10;text_continue.draw()&amp;#10;&amp;#10;# instructions audio has finished?&amp;#10;if tThisFlip &gt;= read_dur_inst:&amp;#10;    if not active_borders:&amp;#10;        rect_train_target.lineColor = TRAIN_BORDER_ACTIVE_COL&amp;#10;        rect_train_context.lineColor = TRAIN_BORDER_ACTIVE_COL&amp;#10;        active_borders = True&amp;#10;    buttons = mouse.getPressed()&amp;#10;    if buttons != prevButtonState:  # button state changed?&amp;#10;        prevButtonState = buttons&amp;#10;        if sum(buttons) &gt; 0:  # state changed to a new click&amp;#10;            x, y = mouse.getPos()&amp;#10;            mouse.x.append(x)&amp;#10;            mouse.y.append(y)&amp;#10;            # if continue button is already shown and trial is otherwise&amp;#10;            # over&amp;#10;            if ready_continue:&amp;#10;                if rectangle_continue.contains(mouse):&amp;#10;                    continueRoutine = False&amp;#10;            # if click within context image area&amp;#10;            elif image_train_context.contains(mouse): &amp;#10;                click_counter += 1&amp;#10;                # list of indices of ellipses to be removed&amp;#10;                rm_ell_inds = []&amp;#10;                cross_position_list.append((x, y))&amp;#10;                # go through all ellipses and check for each one if mouse&amp;#10;                # was clicked within it&amp;#10;                for ell_ind in range(len(nonclicked_ellipses)):&amp;#10;                    if nonclicked_ellipses[ell_ind].contains(mouse):&amp;#10;                        correct_counter += 1&amp;#10;                        rm_ell_inds.append(ell_ind)&amp;#10;                # remove clicked ellipses&amp;#10;                for rm_ell_ind in rm_ell_inds:&amp;#10;                    nonclicked_ellipses.pop(rm_ell_ind)&amp;#10;                    # decrement all 'remove indices' that are higher&amp;#10;                    # than the index whose element was just removed&amp;#10;                    rm_ell_inds = [x-1 if x&gt;rm_ell_ind else x for x in rm_ell_inds]&amp;#10;            buttons = mouse.getPressed()&amp;#10;            mouse.time.append(mouse.mouseClock.getTime())&amp;#10;&amp;#10;# checking here against `len(trial_ellipses)-1` since&amp;#10;# one of the ellipses in this practice trial is incorrect&amp;#10;if correct_counter &gt;= len(trial_ellipses)-1:&amp;#10;    for ellipsis in trial_ellipses:&amp;#10;        ellipsis.draw()&amp;#10;    if not feedback_started:&amp;#10;        if correct_counter == click_counter:&amp;#10;            # set feedback sound and duration&amp;#10;            feedback_sound = read_sound_corr&amp;#10;            feedback_dur = read_dur_corr&amp;#10;            # set top text to feedback text&amp;#10;            text_train2_inst.text = TRAIN2_TXT_CORR&amp;#10;        else:&amp;#10;            feedback_sound = read_sound_incorr&amp;#10;            feedback_dur = read_dur_incorr&amp;#10;            text_train2_inst.text = TRAIN2_TXT_INCORR&amp;#10;        feedback_sound.play()&amp;#10;        feedback_start_time = t&amp;#10;        feedback_started = True&amp;#10;    feedback_finished = (t - feedback_start_time) &gt; feedback_dur&amp;#10;    if not ready_continue and feedback_finished:&amp;#10;        ready_continue = True&amp;#10;        # show continue button&amp;#10;        rectangle_continue.opacity = 1&amp;#10;        text_continue.text = CONTINUE_TXT&amp;#10;&amp;#10;# draw crosses where participant has clicked&amp;#10;for position in cross_position_list:&amp;#10;    cross_stimulus.pos = position&amp;#10;    cross_stimulus.draw() &amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# save practice trial data&amp;#10;thisExp.addData('mouse.x', mouse.x)&amp;#10;thisExp.addData('mouse.y', mouse.y)&amp;#10;thisExp.addData('mouse.time', mouse.time)&amp;#10;# did the participant succeed at the trial?&amp;#10;if correct_counter == click_counter:&amp;#10;    thisExp.addData('practice_heart_success', 'success')&amp;#10;else:&amp;#10;    thisExp.addData('practice_heart_success', 'failure')&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_train2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_train2_inst">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="$TXT_SIZE_M" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_train2_inst" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, TRAIN2_TXT_INST_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$TRAIN2_TXT_INST" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="train_1">
+      <CodeComponent name="code_train1">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# these stimuli must be manually created to control when they are drawn,&amp;#10;# to avoid them overlaying (through autodraw) 'correct' circles that are to &amp;#10;# be drawn on top&amp;#10;image_train_target = visual.ImageStim(&amp;#10;    win=win,&amp;#10;    name='image_train_target', &amp;#10;    image=os.path.join(&quot;stimuli&quot;, &quot;train&quot;, &quot;train1_target_new.jpg&quot;), mask=None,&amp;#10;    ori=0, pos=(0, TRAIN1_TARGET_Y), size=(train1_target_width, train1_target_height),&amp;#10;    color=[1,1,1], colorSpace='rgb', opacity=1,&amp;#10;    flipHoriz=False, flipVert=False,&amp;#10;    texRes=512, interpolate=True, depth=-2.0)&amp;#10;&amp;#10;image_train_context = visual.ImageStim(&amp;#10;    win=win,&amp;#10;    name='image_train_context', &amp;#10;    image=os.path.join(&quot;stimuli&quot;, &quot;train&quot;, &quot;train1_context_new.jpg&quot;), mask=None,&amp;#10;    ori=0, pos=(0, TRAIN1_CONTEXT_Y), size=(train1_context_width, train1_context_height),&amp;#10;    color=[1,1,1], colorSpace='rgb', opacity=1,&amp;#10;    flipHoriz=False, flipVert=False,&amp;#10;    texRes=512, interpolate=True, depth=-3.0)&amp;#10;&amp;#10;# train target/context border stimuli&amp;#10;rect_train_target = visual.Rect(&amp;#10;    win=win, name='rect_train_target',units='deg', &amp;#10;    size=(train1_target_width, train1_target_height),&amp;#10;    ori=0, pos=(0, TRAIN1_TARGET_Y),&amp;#10;    lineWidth=3, lineColor=TRAIN_BORDER_COL, lineColorSpace='rgb',&amp;#10;    fillColor=None, fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True)&amp;#10;&amp;#10;rect_train_context = visual.Rect(&amp;#10;    win=win, name='rect_train_context',units='deg', &amp;#10;    size=(train1_context_width, train1_context_height),&amp;#10;    ori=0, pos=(0, TRAIN1_CONTEXT_Y),&amp;#10;    lineWidth=3, lineColor=TRAIN_BORDER_COL, lineColorSpace='rgb',&amp;#10;    fillColor=None, fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# reset mouse save data attributes&amp;#10;mouse.x = []&amp;#10;mouse.y = []&amp;#10;mouse.time = []&amp;#10;&amp;#10;# reset counter of number of correct responses&amp;#10;correct_counter = 0&amp;#10;&amp;#10;# reset variable indicating if participant has clicked&amp;#10;has_clicked = False&amp;#10;&amp;#10;# reset variable indicating if routine is ready for showing&amp;#10;# continue button&amp;#10;ready_continue = False&amp;#10;&amp;#10;# reset continue button&amp;#10;rectangle_continue.opacity = 0&amp;#10;# empty continue text component's text, which is filled&amp;#10;# in once participant is allowed to continue&amp;#10;# (can't simply change opacity of thext text because of a PsychoPy bug)&amp;#10;text_continue.text = &quot;&quot;&amp;#10;&amp;#10;# reset list of cross drawing positions&amp;#10;cross_position_list.clear()&amp;#10;&amp;#10;# clear the list of ellipses stimuli, to make it ready for this trial&amp;#10;trial_ellipses.clear()&amp;#10;# specify the resize factor for this routine&amp;#10;resize_factor = TRAIN1_RESIZE_FACTOR&amp;#10;# specify the context y coordinate offset&amp;#10;context_y = TRAIN1_CONTEXT_Y&amp;#10;# specify the context image's filename (for filtering dataframe rows&amp;#10;# below)&amp;#10;context_filename = 'train1_context.jpg'&amp;#10;&amp;#10;# find which row indices in the ellipses_df that correspond to this trial's&amp;#10;# target ellipses data&amp;#10;df_indices = list(ellipses_df[ellipses_df['filename'] == context_filename].index)&amp;#10;for index in df_indices:&amp;#10;    center_x = px_to_deg(ellipses_df.loc[index, 'center_x']) * resize_factor&amp;#10;    center_y = px_to_deg(ellipses_df.loc[index, 'center_y']) * resize_factor + context_y&amp;#10;    xaxis_r = px_to_deg(ellipses_df.loc[index, 'xaxis_r']) * resize_factor&amp;#10;    yaxis_r = px_to_deg(ellipses_df.loc[index, 'yaxis_r']) * resize_factor&amp;#10;    orientation = ellipses_df.loc[index, 'orientation']&amp;#10;    new_ellipsis = make_pp_ellipsis(&amp;#10;        center_x, &amp;#10;        center_y, &amp;#10;        xaxis_r, &amp;#10;        yaxis_r, &amp;#10;        orientation&amp;#10;    )&amp;#10;    trial_ellipses.append(new_ellipsis)&amp;#10;&amp;#10;# fetch audio of read instructions and its duration&amp;#10;read_sound_inst = read_audio_sound_dict['read_train1_inst']['sound']&amp;#10;read_dur_inst = read_audio_sound_dict['read_train1_inst']['dur']&amp;#10;# fetch audio of incorrect/correct messages and durations&amp;#10;read_sound_corr = read_audio_sound_dict['read_train1_corr']['sound']&amp;#10;read_dur_corr = read_audio_sound_dict['read_train1_corr']['dur']&amp;#10;read_sound_incorr = read_audio_sound_dict['read_train1_incorr']['sound']&amp;#10;read_dur_incorr = read_audio_sound_dict['read_train1_incorr']['dur']&amp;#10;# reset indicator of whether borders have switched to 'active' (responses&amp;#10;# welcome) color&amp;#10;active_borders = False&amp;#10;# reset indicator of whether feedback has started,&amp;#10;# and variable indicating start time of feedback&amp;#10;feedback_started = False&amp;#10;feedback_start_time = 9999&amp;#10;# start playing instructions&amp;#10;read_sound_inst.play()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="image_train_target.draw()&amp;#10;image_train_context.draw()&amp;#10;rect_train_target.draw()&amp;#10;rect_train_context.draw()&amp;#10;rectangle_continue.draw()&amp;#10;text_continue.draw()&amp;#10;&amp;#10;# instructions audio has finished?&amp;#10;if tThisFlip &gt;= read_dur_inst:&amp;#10;    if not active_borders:&amp;#10;        rect_train_target.lineColor = TRAIN_BORDER_ACTIVE_COL&amp;#10;        rect_train_context.lineColor = TRAIN_BORDER_ACTIVE_COL&amp;#10;        active_borders = True&amp;#10;    buttons = mouse.getPressed()&amp;#10;    if buttons != prevButtonState:  # button state changed?&amp;#10;        prevButtonState = buttons&amp;#10;        if sum(buttons) &gt; 0:  # state changed to a new click&amp;#10;            x, y = mouse.getPos()&amp;#10;            mouse.x.append(x)&amp;#10;            mouse.y.append(y)&amp;#10;            # if continue button is already shown and trial is otherwise&amp;#10;            # over&amp;#10;            if ready_continue:&amp;#10;                if rectangle_continue.contains(mouse):&amp;#10;                    continueRoutine = False&amp;#10;            elif image_train_context.contains(mouse): &amp;#10;                has_clicked = True&amp;#10;                cross_position_list.append((x, y))&amp;#10;                # go through all ellipses and check for each one if mouse&amp;#10;                # was clicked within it&amp;#10;                for ell_ind in range(len(trial_ellipses)):&amp;#10;                    if trial_ellipses[ell_ind].contains(mouse):&amp;#10;                        correct_counter += 1&amp;#10;            buttons = mouse.getPressed()&amp;#10;            mouse.time.append(mouse.mouseClock.getTime())&amp;#10;&amp;#10;if has_clicked:&amp;#10;    for ellipsis in trial_ellipses:&amp;#10;        ellipsis.draw()&amp;#10;    if not feedback_started:&amp;#10;        if correct_counter:&amp;#10;            # set feedback sound and duration&amp;#10;            feedback_sound = read_sound_corr&amp;#10;            feedback_dur = read_dur_corr&amp;#10;            # set top text to feedback text&amp;#10;            text_train1_inst.text = TRAIN1_TXT_CORR&amp;#10;        else:&amp;#10;            feedback_sound = read_sound_incorr&amp;#10;            feedback_dur = read_dur_incorr&amp;#10;            text_train1_inst.text = TRAIN1_TXT_INCORR&amp;#10;        feedback_sound.play()&amp;#10;        feedback_start_time = t&amp;#10;        feedback_started = True&amp;#10;    feedback_finished = (t - feedback_start_time) &gt; feedback_dur&amp;#10;    if not ready_continue and feedback_finished:&amp;#10;        ready_continue = True&amp;#10;        # show continue button&amp;#10;        rectangle_continue.opacity = 1&amp;#10;        text_continue.text = CONTINUE_TXT&amp;#10;&amp;#10;# draw crosses where participant has clicked&amp;#10;for position in cross_position_list:&amp;#10;    cross_stimulus.pos = position&amp;#10;    cross_stimulus.draw() &amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# save practice trial data&amp;#10;thisExp.addData('mouse.x', mouse.x)&amp;#10;thisExp.addData('mouse.y', mouse.y)&amp;#10;thisExp.addData('mouse.time', mouse.time)&amp;#10;if correct_counter == 1:&amp;#10;    thisExp.addData('practice_cube_success', 'success')&amp;#10;else:&amp;#10;    thisExp.addData('practice_cube_success', 'failure')&amp;#10;thisExp.nextEntry()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_train1" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_train1_inst">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="$TXT_SIZE_M" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_train1_inst" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, TRAIN1_TXT_INST_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$TRAIN1_TXT_INST" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="setup">
+      <CodeComponent name="code_translation">
+        <Param val="### BEGIN TRANSLATION ###&amp;#10;# intro screen text&amp;#10;INTRO_TXT = (&amp;#10;    &quot;I de här uppgifterna ska du hitta figurer i olika bilder. &quot; &amp;#10;    &quot;På vissa bilder ska du hitta figurer med samma form flera gånger och &quot; &amp;#10;    &quot;på vissa bilder ska du hitta flera olika figurer som presenteras en i taget. \n\n&quot; &amp;#10;    &quot;Figuren som du ska leta efter visas ovanför bilden.&quot; &amp;#10;    &quot; Den visas upp till 90 sekunder när du ska hitta likadana figurer &quot; &amp;#10;    &quot;och upp till 30 sekunder för varje figur när du ska hitta olika. \n\n&quot; &amp;#10;    &quot;Figuren som du ska leta efter ska ha exakt samma form men kan presenteras&quot;&amp;#10;    &quot; i olika storlekar och vinklar.\n\n&quot;&amp;#10;    &quot;Varje gång du hittar en figur klickar du på den.&quot;&amp;#10;)&amp;#10;&amp;#10;# continue button text&amp;#10;CONTINUE_TXT = &quot;Fortsätt&quot;&amp;#10;&amp;#10;# first training 'trial' instructions text&amp;#10;TRAIN1_TXT_INST = (&amp;#10;    &quot;Här ser du ett exempel på en av uppgifterna. \n&quot;&amp;#10;    &quot;Titta på figuren ovanför bilden och försök hitta den i bilden. \n&quot;&amp;#10;    &quot;Kom ihåg att figuren ska ha exakt samma form som den som presenteras ovanför &quot;&amp;#10;    &quot;men kan ha en annan storlek och vinkel. \n&quot;&amp;#10;    &quot;Hela figuren kommer att synas men det kan finnas andra figurer inom den.&quot;&amp;#10;)&amp;#10;&amp;#10;# first training 'trial' feedback for correct response&amp;#10;TRAIN1_TXT_CORR = (&amp;#10;    &quot;Det var rätt!&quot;&amp;#10;)&amp;#10;&amp;#10;# first training 'trial' feedback for incorrect response&amp;#10;TRAIN1_TXT_INCORR = (&amp;#10;    &quot;Du hittade inte rätt figur: figuren du ska hitta ska ha &quot;&amp;#10;    &quot;exakt samma form som figuren ovanpå. Se &quot;&amp;#10;    &quot;markeringen för rätt svar.&quot;&amp;#10;)&amp;#10;&amp;#10;# second training 'trial' instructions text&amp;#10;TRAIN2_TXT_INST = (&amp;#10;    &quot;Här ser du ett annat exempel på uppgift. &quot;&amp;#10;    &quot;Den här gången ska du hitta flera likadana figurer. &quot;&amp;#10;    &quot;Titta på figuren bredvid bilden och försök sedan hitta fler i bilden.&quot;&amp;#10;    &quot;Kom ihåg att figurerna ska ha exakt samma form som den som presenteras &quot;&amp;#10;    &quot;bredvid men kan ha andra storlekar och vinklar.\n\n&quot;&amp;#10;    &quot;Varje gång du hittar en figur klickar du på den.&quot;&amp;#10;)&amp;#10;&amp;#10;# second training 'trial' feedback for correct response&amp;#10;TRAIN2_TXT_CORR = (&amp;#10;    &quot;Bra! Du hittade alla figurer och klickade inte på fel figur.\n\n&quot;&amp;#10;     &quot;Lägg märke till att det rödmarkerade föremålet &quot;&amp;#10;    &quot;liknar figuren, men har inte exakt samma form.&quot;&amp;#10;)&amp;#10;&amp;#10;# second training 'trial' feedback for incorrect response&amp;#10;TRAIN2_TXT_INCORR = (&amp;#10;    &quot;Du hittade alla figurer men klickade också på fel figur. &quot; &amp;#10;    &quot;Figuren du ska hitta ska ha exakt samma form &quot; &amp;#10;    &quot;som figuren bredvid.\n\n&quot;&amp;#10;    &quot;Lägg märke till att det rödmarkerade föremålet &quot;&amp;#10;    &quot;liknar figuren, men har inte exakt samma form.&quot;&amp;#10;)&amp;#10;&amp;#10;# (after-training and immediately before first 'real' trial)&amp;#10;# start screen instructions text&amp;#10;START_TXT_INST = (&amp;#10;    &quot;Nu börjar uppgiften. \n\n&quot;&amp;#10;    &quot;Försök att svara så snabbt och att klicka så &quot;&amp;#10;    &quot;exakt på figurerna som möjligt. \n\n&quot;&amp;#10;    &quot;Ett blått kryss visas på platsen där du klickat, oavsett om du klickar &quot;&amp;#10;    &quot;rätt eller fel. Du kan inte ångra om du klickar fel. &quot;&amp;#10;    &quot;Om du klickar fel, fortsätt bara med uppgiften.&quot;&amp;#10;)&amp;#10;&amp;#10;# start test button text&amp;#10;START_TXT_BTN = (&amp;#10;    &quot;Starta&quot;&amp;#10;)&amp;#10;&amp;#10;# end screen message&amp;#10;END_TXT = (&amp;#10;    &quot;Bra jobbat! Nu kommer nästa experiment. När du är redo matar in ditt deltagar-ID för nästa test. Vänligen stanna i samma position. Ifall du behöver lämna din position behöver kalibreringen göras om. I så fall vänligen kontakta experimentledaren, tack!&quot;&amp;#10;)&amp;#10;&amp;#10;# trial instruction shown before 'repeated' and 'heap' trials&amp;#10;REP_TXT = (&amp;#10;    &quot;Hitta likadana.&quot;&amp;#10;)&amp;#10;&amp;#10;# trial instruction shown before 'once' trials&amp;#10;ONCE_TXT = (&amp;#10;    &quot;Hitta olika, en i taget.&quot;&amp;#10;)&amp;#10;&amp;#10;# trial instruction shown just before sequence of&amp;#10;#'popout' trials starts&amp;#10;POPOUT_TXT = (&amp;#10;    &quot;Nu ska du klicka på figurer som visas helt fristående &quot;&amp;#10;    &quot;från de andra figurerna i bilden.\n&quot;&amp;#10;    &quot;Kom ihåg att figuren som du letar efter ska &quot;&amp;#10;    &quot;se exakt likadan ut som den som &quot;&amp;#10;    &quot;presenteras ovanför bilden men kan ha &quot;&amp;#10;    &quot;en annan storlek eller vinkel. &quot;&amp;#10;    &quot;Figuren visas ovanför bilden i 30 sekunder.&quot;&amp;#10;)&amp;#10;&amp;#10;## READ MESSAGES AUDIO SECTION ##&amp;#10;# **relative** path to directory holding audio files with&amp;#10;# read instructions/messages to participant&amp;#10;READ_AUDIO_DIR_PATH = (&amp;#10;    &quot;stimuli/audio_read_instructions/swedish&quot;&amp;#10;)&amp;#10;&amp;#10;# read messages audio file names&amp;#10;# and durations (in seconds)&amp;#10;# intro screen &amp;#10;READ_AUDIO_INTRO_FNAME = 'read_intro.wav'&amp;#10;READ_AUDIO_INTRO_DUR = 42.67827664399093&amp;#10;# training 1 instructions&amp;#10;READ_AUDIO_TRAIN1_INST_FNAME = 'read_train1_inst.wav'&amp;#10;READ_AUDIO_TRAIN1_INST_DUR = 22.523356009070294&amp;#10;# training 1 correct&amp;#10;READ_AUDIO_TRAIN1_CORR_FNAME = 'read_train1_correct.wav'&amp;#10;READ_AUDIO_TRAIN1_CORR_DUR = 1.5&amp;#10;# training 1 incorrect&amp;#10;READ_AUDIO_TRAIN1_INCORR_FNAME = 'read_train1_incorrect.wav'&amp;#10;READ_AUDIO_TRAIN1_INCORR_DUR = 7.9412244897959186&amp;#10;# training 2 instructions&amp;#10;READ_AUDIO_TRAIN2_INST_FNAME = 'read_train2_inst.wav'&amp;#10;READ_AUDIO_TRAIN2_INST_DUR = 25.26331065759637&amp;#10;# training 2 correct&amp;#10;READ_AUDIO_TRAIN2_CORR_FNAME = 'read_train2_correct.wav'&amp;#10;READ_AUDIO_TRAIN2_CORR_DUR = 5.6656689342403626&amp;#10;# training 2 incorrect&amp;#10;READ_AUDIO_TRAIN2_INCORR_FNAME = 'read_train2_incorrect.wav'&amp;#10;READ_AUDIO_TRAIN2_INCORR_DUR = 9.357641723356009&amp;#10;# (after-training and immediately before first 'real' trial)&amp;#10;# start screen&amp;#10;READ_AUDIO_START_FNAME = 'read_start.wav'&amp;#10;READ_AUDIO_START_DUR = 20.06204081632653&amp;#10;&amp;#10;# before sequence of&amp;#10;#'popout' trials starts&amp;#10;READ_AUDIO_INTRO_FNAME = 'read_train_pre_popout.wav'&amp;#10;READ_AUDIO_INTRO_DUR = 20.135&amp;#10;&amp;#10;## END READ MESSAGES AUDIO SECTION ## &amp;#10;&amp;#10;### END TRANSLATION ###" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="INTRO_TXT = &quot;I de h\u00e4r uppgifterna ska du hitta figurer i olika bilder. P\u00e5 vissa bilder ska du hitta figurer med samma form flera g\u00e5nger och p\u00e5 vissa bilder ska du hitta flera olika figurer som presenteras en i taget. \n\nFiguren som du ska leta efter visas ovanf\u00f6r bilden. Den visas upp till 90 sekunder n\u00e4r du ska hitta likadana figurer och upp till 30 sekunder f\u00f6r varje figur n\u00e4r du ska hitta olika. \n\nFiguren som du ska leta efter ska ha exakt samma form men kan presenteras i olika storlekar och vinklar.\n\nVarje g\u00e5ng du hittar en figur klickar du p\u00e5 den.&quot;;&amp;#10;CONTINUE_TXT = &quot;Forts\u00e4tt&quot;;&amp;#10;TRAIN1_TXT_INST = &quot;H\u00e4r ser du ett exempel p\u00e5 en av uppgifterna. \nTitta p\u00e5 figuren ovanf\u00f6r bilden och f\u00f6rs\u00f6k hitta den i bilden. \nKom ih\u00e5g att figuren ska ha exakt samma form som den som presenteras ovanf\u00f6r men kan ha en annan storlek och vinkel. \nHela figuren kommer att synas men det kan finnas andra figurer inom den.&quot;;&amp;#10;TRAIN1_TXT_CORR = &quot;Det var r\u00e4tt!&quot;;&amp;#10;TRAIN1_TXT_INCORR = &quot;Du hittade inte r\u00e4tt figur: figuren du ska hitta ska ha exakt samma form som figuren ovanp\u00e5. Se markeringen f\u00f6r r\u00e4tt svar.&quot;;&amp;#10;TRAIN2_TXT_INST = &quot;H\u00e4r ser du ett annat exempel p\u00e5 uppgift. Den h\u00e4r g\u00e5ngen ska du hitta flera likadana figurer. Titta p\u00e5 figuren bredvid bilden och f\u00f6rs\u00f6k sedan hitta fler i bilden.Kom ih\u00e5g att figurerna ska ha exakt samma form som den som presenteras bredvid men kan ha andra storlekar och vinklar.\n\nVarje g\u00e5ng du hittar en figur klickar du p\u00e5 den.&quot;;&amp;#10;TRAIN2_TXT_CORR = &quot;Bra! Du hittade alla figurer och klickade inte p\u00e5 fel figur.\n\nL\u00e4gg m\u00e4rke till att det r\u00f6dmarkerade f\u00f6rem\u00e5let liknar figuren, men har inte exakt samma form.&quot;;&amp;#10;TRAIN2_TXT_INCORR = &quot;Du hittade alla figurer men klickade ocks\u00e5 p\u00e5 fel figur. Figuren du ska hitta ska ha exakt samma form som figuren bredvid.\n\nL\u00e4gg m\u00e4rke till att det r\u00f6dmarkerade f\u00f6rem\u00e5let liknar figuren, men har inte exakt samma form.&quot;;&amp;#10;START_TXT_INST = &quot;Nu b\u00f6rjar uppgiften. \n\nF\u00f6rs\u00f6k att svara s\u00e5 snabbt och att klicka s\u00e5 exakt p\u00e5 figurerna som m\u00f6jligt. \n\nEtt bl\u00e5tt kryss visas p\u00e5 platsen d\u00e4r du klickat, oavsett om du klickar r\u00e4tt eller fel. Du kan inte \u00e5ngra om du klickar fel. Om du klickar fel, forts\u00e4tt bara med uppgiften.&quot;;&amp;#10;START_TXT_BTN = &quot;Starta&quot;;&amp;#10;END_TXT = &quot;Bra jobbat! Nu kommer n\u00e4sta experiment. N\u00e4r du \u00e4r redo matar in ditt deltagar-ID f\u00f6r n\u00e4sta test. V\u00e4nligen stanna i samma position. Ifall du beh\u00f6ver l\u00e4mna din position beh\u00f6ver kalibreringen g\u00f6ras om. I s\u00e5 fall v\u00e4nligen kontakta experimentledaren, tack!&quot;;&amp;#10;REP_TXT = &quot;Hitta likadana.&quot;;&amp;#10;ONCE_TXT = &quot;Hitta olika, en i taget.&quot;;&amp;#10;POPOUT_TXT = &quot;Nu ska du klicka p\u00e5 figurer som visas helt frist\u00e5ende fr\u00e5n de andra figurerna i bilden.\nKom ih\u00e5g att figuren som du letar efter ska se exakt likadan ut som den som presenteras ovanf\u00f6r bilden men kan ha en annan storlek eller vinkel. Figuren visas ovanf\u00f6r bilden i 30 sekunder.&quot;;&amp;#10;READ_AUDIO_DIR_PATH = &quot;stimuli/audio_read_instructions/swedish&quot;;&amp;#10;READ_AUDIO_INTRO_FNAME = &quot;read_intro.wav&quot;;&amp;#10;READ_AUDIO_INTRO_DUR = 42.67827664399093;&amp;#10;READ_AUDIO_TRAIN1_INST_FNAME = &quot;read_train1_inst.wav&quot;;&amp;#10;READ_AUDIO_TRAIN1_INST_DUR = 22.523356009070294;&amp;#10;READ_AUDIO_TRAIN1_CORR_FNAME = &quot;read_train1_correct.wav&quot;;&amp;#10;READ_AUDIO_TRAIN1_CORR_DUR = 1.5;&amp;#10;READ_AUDIO_TRAIN1_INCORR_FNAME = &quot;read_train1_incorrect.wav&quot;;&amp;#10;READ_AUDIO_TRAIN1_INCORR_DUR = 7.9412244897959186;&amp;#10;READ_AUDIO_TRAIN2_INST_FNAME = &quot;read_train2_inst.wav&quot;;&amp;#10;READ_AUDIO_TRAIN2_INST_DUR = 25.26331065759637;&amp;#10;READ_AUDIO_TRAIN2_CORR_FNAME = &quot;read_train2_correct.wav&quot;;&amp;#10;READ_AUDIO_TRAIN2_CORR_DUR = 5.6656689342403626;&amp;#10;READ_AUDIO_TRAIN2_INCORR_FNAME = &quot;read_train2_incorrect.wav&quot;;&amp;#10;READ_AUDIO_TRAIN2_INCORR_DUR = 9.357641723356009;&amp;#10;READ_AUDIO_START_FNAME = &quot;read_start.wav&quot;;&amp;#10;READ_AUDIO_START_DUR = 20.06204081632653;&amp;#10;READ_AUDIO_INTRO_FNAME = &quot;read_train_pre_popout.wav&quot;;&amp;#10;READ_AUDIO_INTRO_DUR = 20.135;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_translation" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="code_monitor_setup">
+        <Param val="# import psychopy module for generating&amp;#10;# monitor instances.&amp;#10;from psychopy import monitors&amp;#10;&amp;#10;# UPDATE HERE create monitor instance for your&amp;#10;# laboratory's monitor.&amp;#10;experiment_mon = monitors.Monitor(&amp;#10;    name=&quot;experiment_monitor&quot;,&amp;#10;    width=30, # UPDATEME monitor width in centimers&amp;#10;    distance=60, #UPDATEME distance from monitor in centimeters&amp;#10;    notes=&quot;Our lab's experiment monitor.&quot;)&amp;#10;&amp;#10;# UPDATE HERE let PsychoPy know the pixel width/height of&amp;#10;# your laboratory's monitor.&amp;#10;experiment_mon.setSizePix([1280, 1024]) #UPDATEME&amp;#10;&amp;#10;# info for pixel to degree conversion&amp;#10;px_per_cm = experiment_mon.getSizePix()[0]/experiment_mon.getWidth()&amp;#10;cm_per_deg = tan(pi / 180) * experiment_mon.getDistance()&amp;#10;px_per_deg = px_per_cm * cm_per_deg" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import {monitors} from 'psychopy';&amp;#10;var cm_per_deg, experiment_mon, px_per_cm, px_per_deg;&amp;#10;experiment_mon = new monitors.Monitor({&quot;name&quot;: &quot;experiment_monitor&quot;, &quot;width&quot;: 37.68, &quot;distance&quot;: 60, &quot;notes&quot;: &quot;Eyetracker (Judith) room monitor at KIND.&quot;});&amp;#10;experiment_mon.setSizePix([1280, 1024]);&amp;#10;px_per_cm = (experiment_mon.getSizePix()[0] / experiment_mon.width);&amp;#10;cm_per_deg = (tan((pi / 180)) * experiment_mon.distance);&amp;#10;px_per_deg = (px_per_cm * cm_per_dg);&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_monitor_setup" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="code_common_functions_components">
+        <Param val="import pandas as pd&amp;#10;&amp;#10;def px_to_deg(px_val):&amp;#10;    &quot;&quot;&quot;&amp;#10;    Convert from pixels to degrees (based on the 'experiment_mon'&amp;#10;    specifications)&amp;#10;    &quot;&quot;&quot;&amp;#10;    return px_val / px_per_deg&amp;#10;&amp;#10;def make_pp_ellipsis(center_x, center_y, xaxis_r, yaxis_r, ori):&amp;#10;    &quot;&quot;&quot;&amp;#10;    Form an ellipsis (polygon) stimulus object based on passed&amp;#10;    center coordinates, x/y-axis radii, and rotation angle&amp;#10;    (in degrees, where positive values indicate that the&amp;#10;    axes have been rotated **clockwise**).&amp;#10;    &quot;&quot;&quot;&amp;#10;    pp_ellipsis = visual.Polygon(&amp;#10;        win=win, name='pp_ellipsis', edges=120,units='deg', &amp;#10;        size=(xaxis_r*2, yaxis_r*2),&amp;#10;        ori=ori, pos=(center_x, center_y),&amp;#10;        lineWidth=2, lineColor=[0,0,1], lineColorSpace='rgb',&amp;#10;        fillColor=None, fillColorSpace='rgb',&amp;#10;        opacity=1, depth=-10.0, interpolate=True)&amp;#10;    return pp_ellipsis&amp;#10;&amp;#10;# dictionary of read instructions/messages participant sound file paths and&amp;#10;# durations&amp;#10;read_audio_info_dicts = {&amp;#10;    'read_intro': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_INTRO_FNAME),&amp;#10;        'dur': READ_AUDIO_INTRO_DUR,&amp;#10;    },&amp;#10;    'read_train1_inst': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_TRAIN1_INST_FNAME),&amp;#10;        'dur': READ_AUDIO_TRAIN1_INST_DUR,&amp;#10;    },&amp;#10;    'read_train1_corr': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_TRAIN1_CORR_FNAME),&amp;#10;        'dur': READ_AUDIO_TRAIN1_CORR_DUR,&amp;#10;    },&amp;#10;    'read_train1_incorr': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_TRAIN1_INCORR_FNAME),&amp;#10;        'dur': READ_AUDIO_TRAIN1_INCORR_DUR,&amp;#10;    },&amp;#10;    'read_train2_inst': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_TRAIN2_INST_FNAME),&amp;#10;        'dur': READ_AUDIO_TRAIN2_INST_DUR,&amp;#10;    },&amp;#10;    'read_train2_corr': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_TRAIN2_CORR_FNAME),&amp;#10;        'dur': READ_AUDIO_TRAIN2_CORR_DUR,&amp;#10;    },&amp;#10;    'read_train2_incorr': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_TRAIN2_INCORR_FNAME),&amp;#10;        'dur': READ_AUDIO_TRAIN2_INCORR_DUR,&amp;#10;    },&amp;#10;    'read_start': {&amp;#10;        'fpath': os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_START_FNAME),&amp;#10;        'dur': READ_AUDIO_START_DUR,&amp;#10;    }&amp;#10;}" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# read in target ellipses data&amp;#10;ellipses_data_path = os.path.join('stimuli', 'stimuli_roi_coordinates.csv')&amp;#10;ellipses_df = pd.read_csv(ellipses_data_path)&amp;#10;&amp;#10;# list that will be updated for each trial with that&amp;#10;# trial's ellipses stimuli objects&amp;#10;trial_ellipses = []&amp;#10;&amp;#10;# mouse for registering participant clicks, with&amp;#10;# related attributes and variables&amp;#10;mouse = event.Mouse(win=win)&amp;#10;x, y = [None, None]&amp;#10;mouse.mouseClock = core.Clock()&amp;#10;prevButtonState = []&amp;#10;mouse.x = []&amp;#10;mouse.y = []&amp;#10;mouse.leftButton = []&amp;#10;mouse.midButton = []&amp;#10;mouse.rightButton = []&amp;#10;mouse.time = []&amp;#10;&amp;#10;# continue button/text&amp;#10;rectangle_continue = visual.Rect(&amp;#10;    win=win, name='rectangle_intro_continue',units='deg', &amp;#10;    width=(BTN_WIDTH*1.5, BTN_HEIGHT)[0], height=(BTN_WIDTH*1.5, BTN_HEIGHT)[1],&amp;#10;    ori=0, pos=(0, BTN_Y),&amp;#10;    lineWidth=2, lineColor=BTN_BORDER_COL, lineColorSpace='rgb',&amp;#10;    fillColor=BTN_FILL_COL, fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-4.0, interpolate=True)&amp;#10;text_continue = visual.TextStim(win=win, name='text_intro_continue',&amp;#10;    text=CONTINUE_TXT,&amp;#10;    font='Arial',&amp;#10;    units='deg', pos=(0, BTN_Y), height=BTN_TXT_HEIGHT, wrapWidth=None, ori=0, &amp;#10;    color=BTN_TXT_COL, colorSpace='rgb', opacity=1, &amp;#10;    languageStyle='LTR',&amp;#10;    depth=-6.0);&amp;#10;&amp;#10;# cross for marking where participant has clicked&amp;#10;cross_stimulus = visual.ShapeStim(&amp;#10;    win, &amp;#10;    pos=(0, 0), &amp;#10;    depth=-2, &amp;#10;    vertices='cross', &amp;#10;    size=(0.2, 0.2), &amp;#10;    lineColor=[-0.8, -0.8, 1], &amp;#10;    fillColor=[-0.8, -0.8, 1],&amp;#10;    units='deg')&amp;#10;# list for keeping track of where cross should be&amp;#10;# drawn (ie where participant has clicked during&amp;#10;# current trial)&amp;#10;cross_position_list = []&amp;#10;&amp;#10;# put together dictionary of sound stimuli for read instructions/messages&amp;#10;read_audio_sound_dict = {}&amp;#10;&amp;#10;for info_dict_key in read_audio_info_dicts:&amp;#10;    info_dict = read_audio_info_dicts[info_dict_key]&amp;#10;    fpath = info_dict['fpath']&amp;#10;    dur = info_dict['dur']&amp;#10;    read_audio_sound_dict[info_dict_key] = {&amp;#10;        'dur': dur,&amp;#10;        'sound': sound.Sound(&amp;#10;            value=fpath, &amp;#10;            secs=dur,&amp;#10;            stereo=True,&amp;#10;            hamming=True,&amp;#10;            name=info_dict_key,&amp;#10;            volume=AUDIO_VOLUME&amp;#10;        )&amp;#10;    }&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="function px_to_deg(px_val) {&amp;#10;    /*&amp;#10;    Convert from pixels to degrees (based on the 'experiment_mon'&amp;#10;    specifications)&amp;#10;    */&amp;#10;    return (px_val / px_per_deg);&amp;#10;}&amp;#10;function make_pp_ellipsis(center_x, center_y, xaxis_len, yaxis_len, ori) {&amp;#10;    var pp_ellipsis;&amp;#10;    pp_ellipsis = new visual.Polygon({&quot;win&quot;: win, &quot;name&quot;: &quot;pp_ellipsis&quot;, &quot;edges&quot;: 120, &quot;units&quot;: &quot;pix&quot;, &quot;size&quot;: [xaxis_len, yaxis_len], &quot;ori&quot;: ori, &quot;pos&quot;: [center_x, center_y], &quot;lineWidth&quot;: 1, &quot;lineColor&quot;: [0, 1, 0], &quot;lineColorSpace&quot;: &quot;rgb&quot;, &quot;fillColor&quot;: [0, 0, 1], &quot;fillColorSpace&quot;: &quot;rgb&quot;, &quot;opacity&quot;: 0.3, &quot;depth&quot;: (- 10.0), &quot;interpolate&quot;: false});&amp;#10;    return pp_ellipsis;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_common_functions_components" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="code_setup">
+        <Param val="# enable (True) / disable (False) debug mode&amp;#10;# make sure that this is set to **False** before&amp;#10;# testing any participants&amp;#10;DEBUG_ON = False&amp;#10;&amp;#10;### BEGIN SET CONSTANTS ###&amp;#10;# experiment constants/settings setup code snippet&amp;#10;# size specifications, EXCEPT THOSE FOR IMAGES, are in degrees.&amp;#10;# duration/time specifications are in seconds, unless otherwise&amp;#10;# specified.&amp;#10;&amp;#10;# background color (used by experiment monitor settings)&amp;#10;BG_COL = [1, 1, 1]&amp;#10;&amp;#10;# medium text size&amp;#10;TXT_SIZE_M = 1&amp;#10;&amp;#10;# neutral text color&amp;#10;TXT_COL_NEUTRAL = [-1, -1, -1]&amp;#10;&amp;#10;# regular text wrap width&amp;#10;TXT_WRAP_WIDTH = 28&amp;#10;&amp;#10;# 'continue' and 'start' button y coordinate&amp;#10;BTN_Y = -12&amp;#10;&amp;#10;# button text size&amp;#10;BTN_TXT_HEIGHT = 1.2&amp;#10;&amp;#10;# 'continue' and 'start' button background/fill color&amp;#10;BTN_FILL_COL = [0.5, 0.5, 0.5]&amp;#10;# 'continue' and 'start' button border/line color&amp;#10;BTN_BORDER_COL = [-1, -1, -1]&amp;#10;# button text color&amp;#10;BTN_TXT_COL = BTN_BORDER_COL&amp;#10;# button width/height&amp;#10;BTN_WIDTH = 4&amp;#10;BTN_HEIGHT = 2&amp;#10;# button text height&amp;#10;BTN_TXT_HEIGHT = BTN_HEIGHT * 0.5&amp;#10;&amp;#10;# audio (read instructions/messages to participant) volume&amp;#10;AUDIO_VOLUME = 1&amp;#10;&amp;#10;## BEGIN INTRO SECTION ##&amp;#10;# intro text y coordinate&amp;#10;INTRO_TXT_Y = 3&amp;#10;## END INTRO SECTION ##&amp;#10;&amp;#10;## BEGIN TRAIN/PRACTICE SECTION ##&amp;#10;# training trials image borders color&amp;#10;TRAIN_BORDER_COL = [0,0,0]&amp;#10;#  training trials image borders active (clicks are welcome) color&amp;#10;TRAIN_BORDER_ACTIVE_COL = [-0.5,-0.5,0.5]&amp;#10;# training trial 1 instruction y coordinate&amp;#10;TRAIN1_TXT_INST_Y = 7&amp;#10;# training trial 1 target y coordinate #changed from 3 JN&amp;#10;TRAIN1_TARGET_Y = 2&amp;#10;# training trial 1 context y coordinate #changed from -3 JN&amp;#10;TRAIN1_CONTEXT_Y = -4&amp;#10;# training trial 1 target width/height IN PIXELS&amp;#10;TRAIN1_TARGET_ORIG_WIDTH = 160&amp;#10;TRAIN1_TARGET_ORIG_HEIGHT = 120&amp;#10;# training trial 1 images resize factor&amp;#10;TRAIN1_RESIZE_FACTOR = 1&amp;#10;train1_target_width = TRAIN1_RESIZE_FACTOR * px_to_deg(TRAIN1_TARGET_ORIG_WIDTH)&amp;#10;train1_target_height = TRAIN1_RESIZE_FACTOR * px_to_deg(TRAIN1_TARGET_ORIG_HEIGHT)&amp;#10;# training trial 1 context width/height IN PIXELS&amp;#10;TRAIN1_CONTEXT_ORIG_WIDTH = 430&amp;#10;TRAIN1_CONTEXT_ORIG_HEIGHT = 270&amp;#10;train1_context_width = TRAIN1_RESIZE_FACTOR * px_to_deg(TRAIN1_CONTEXT_ORIG_WIDTH)&amp;#10;train1_context_height = TRAIN1_RESIZE_FACTOR * px_to_deg(TRAIN1_CONTEXT_ORIG_HEIGHT)&amp;#10;# training trial 2 instruction y coordinate&amp;#10;TRAIN2_TXT_INST_Y = 9.5&amp;#10;# training trial 2 target y coordinate&amp;#10;TRAIN2_TARGET_X = -4&amp;#10;TRAIN2_TARGET_Y = -2.5&amp;#10;# training trial 2 context x/y coordinates&amp;#10;TRAIN2_CONTEXT_X = 4&amp;#10;TRAIN2_CONTEXT_Y = -2.5&amp;#10;# training trial 2 target width/height IN PIXELS&amp;#10;TRAIN2_TARGET_ORIG_WIDTH = 119&amp;#10;TRAIN2_TARGET_ORIG_HEIGHT = 133&amp;#10;# training trial 2 images resize factor&amp;#10;TRAIN2_RESIZE_FACTOR = 0.9&amp;#10;train2_target_width = TRAIN2_RESIZE_FACTOR * px_to_deg(TRAIN2_TARGET_ORIG_WIDTH)&amp;#10;train2_target_height = TRAIN2_RESIZE_FACTOR * px_to_deg(TRAIN2_TARGET_ORIG_HEIGHT)&amp;#10;# training trial 2 context width/height IN PIXELS&amp;#10;TRAIN2_CONTEXT_ORIG_WIDTH = 250&amp;#10;TRAIN2_CONTEXT_ORIG_HEIGHT = 600&amp;#10;train2_context_width = TRAIN2_RESIZE_FACTOR * px_to_deg(TRAIN2_CONTEXT_ORIG_WIDTH)&amp;#10;train2_context_height = TRAIN2_RESIZE_FACTOR * px_to_deg(TRAIN2_CONTEXT_ORIG_HEIGHT)&amp;#10;&amp;#10;## END TRAIN SECTION ##&amp;#10;&amp;#10;## BEGIN PRE-POPOUT INSTRUCTION/TRAIN SECTION ##&amp;#10;# pre-popout trials instruction text y coordinate&amp;#10;PREPOPOUT_TXT_Y = 6&amp;#10;&amp;#10;# training pre-popout section images (marked/nonmarked)&amp;#10;TRAIN3_SHOWPOPOUT_X = -8&amp;#10;TRAIN3_SHOWPOPOUT_Y = -6&amp;#10;TRAIN3_SHOWPOPOUT_ORIG_WIDTH = 250&amp;#10;TRAIN3_SHOWPOPOUT_ORIG_HEIGHT = 600&amp;#10;TRAIN3_RESIZE_FACTOR = 0.9&amp;#10;train3_showpopout_width = TRAIN3_RESIZE_FACTOR * px_to_deg(TRAIN3_SHOWPOPOUT_ORIG_WIDTH)&amp;#10;train3_showpopout_height = TRAIN3_RESIZE_FACTOR * px_to_deg(TRAIN3_SHOWPOPOUT_ORIG_HEIGHT)&amp;#10;&amp;#10;TRAIN4_SHOWPOPOUT_X = 0&amp;#10;TRAIN4_SHOWPOPOUT_Y = -6&amp;#10;TRAIN4_SHOWPOPOUT_ORIG_WIDTH = 500&amp;#10;TRAIN4_SHOWPOPOUT_ORIG_HEIGHT = 350&amp;#10;TRAIN4_RESIZE_FACTOR = 0.7&amp;#10;train4_showpopout_width = TRAIN4_RESIZE_FACTOR * px_to_deg(TRAIN4_SHOWPOPOUT_ORIG_WIDTH)&amp;#10;train4_showpopout_height = TRAIN4_RESIZE_FACTOR * px_to_deg(TRAIN4_SHOWPOPOUT_ORIG_HEIGHT)&amp;#10;&amp;#10;TRAIN5_SHOWPOPOUT_X = 8&amp;#10;TRAIN5_SHOWPOPOUT_Y = -6&amp;#10;TRAIN5_SHOWPOPOUT_ORIG_WIDTH = 500&amp;#10;TRAIN5_SHOWPOPOUT_ORIG_HEIGHT = 350&amp;#10;TRAIN5_RESIZE_FACTOR = 0.7&amp;#10;train5_showpopout_width = TRAIN5_RESIZE_FACTOR * px_to_deg(TRAIN5_SHOWPOPOUT_ORIG_WIDTH)&amp;#10;train5_showpopout_height = TRAIN5_RESIZE_FACTOR * px_to_deg(TRAIN5_SHOWPOPOUT_ORIG_HEIGHT)&amp;#10;&amp;#10;# duration of trial pre-popout instruction text&amp;#10;INST_SHOWPOPOUT_TXT_DUR = 40&amp;#10;# duration for which non-marked versions of example images&amp;#10;# will be shown&amp;#10;INST_SHOWPOPOUT_NONMARKED_DUR = 20&amp;#10;# duration for which marked versions of example images&amp;#10;# will be shown&amp;#10;INST_SHOWPOPOUT_MARKED_DUR = 20&amp;#10;&amp;#10;&amp;#10;## END PRE-POPOUT INSTRUCTION/TRAIN SECTION ##&amp;#10;&amp;#10;## BEGIN TRIAL SECTION ##&amp;#10;# duration of pre-trial instruction message.&amp;#10;# duration here is specified in&amp;#10;# **number of frames** ie on a standard setup you will&amp;#10;# specify 60 (frames) for 1s, since most computers&amp;#10;# will show 60 frames/s&amp;#10;TRIALINST_DUR = 3 * 60&amp;#10;# letter height of pre-trial instruction message&amp;#10;TRIALINST_TXT_HEIGHT = 3&amp;#10;&amp;#10;if not DEBUG_ON:&amp;#10;    # per-target maximum duration of multi-target (type 'once')&amp;#10;    # trials&amp;#10;    PER_TARGET_MAX_DUR = 30&amp;#10;    # maximum duration of single-target ('heap' and 'repeat' trials)&amp;#10;    SINGLE_TARGET_DUR = 90&amp;#10;    # maximum duration of single-target 'popout' (non-embedded)&amp;#10;    # trials&amp;#10;    SINGLE_TARGET_DUR_POPOUT = 30&amp;#10;else:&amp;#10;    PER_TARGET_MAX_DUR = 5&amp;#10;    SINGLE_TARGET_DUR = 5&amp;#10;    SINGLE_TARGET_DUR_POPOUT = 5&amp;#10;# duration of 'blocking period' after a new target is&amp;#10;# presented, during which the participant cannot click&amp;#10;BLOCKING_DUR = 0.4&amp;#10;&amp;#10;# trial target width/height IN PIXELS&amp;#10;TRIAL_TARGET_ORIG_WIDTH = 210&amp;#10;TRIAL_TARGET_ORIG_HEIGHT = 180&amp;#10;# trial target resize factor&amp;#10;TRIAL_TARGET_RESIZE_FACTOR = 1&amp;#10;trial_target_width = TRIAL_TARGET_RESIZE_FACTOR * px_to_deg(TRIAL_TARGET_ORIG_WIDTH)&amp;#10;trial_target_height = TRIAL_TARGET_RESIZE_FACTOR * px_to_deg(TRIAL_TARGET_ORIG_HEIGHT)&amp;#10;# trial target y coordinate&amp;#10;TRIAL_TARGET_Y = 11&amp;#10;# trial context maximum width/height IN DEGREES&amp;#10;# (each image here has a different size from the others)&amp;#10;TRIAL_CONTEXT_MAX_WIDTH = 35&amp;#10;TRIAL_CONTEXT_MAX_HEIGHT = 20&amp;#10;# trial context y coordinate&amp;#10;TRIAL_CONTEXT_Y = -3&amp;#10;&amp;#10;# for 'once' type trials, duration of inter-target-interval&amp;#10;# (ie pause after each target being presented before next&amp;#10;# target is shown/trial ends). duration here is specified in&amp;#10;# **number of frames** ie on a standard setup you will&amp;#10;# specify 60 (frames) for 1s, since most computers&amp;#10;# will show 60 frames/s&amp;#10;ONCE_INTER_TARGET_DUR = 60&amp;#10;&amp;#10;## END TRIAL SECTION ##&amp;#10;&amp;#10;### END SET CONSTANTS ###" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_setup" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="trial">
+      <CodeComponent name="code_trial">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# store start time of trial&amp;#10;trial_start_time = globalClock.getTime()&amp;#10;&amp;#10;# reset mouse click time clock, meaning that mouse click times&amp;#10;# will be based on __time since trial onset__ (this mouse clock&amp;#10;# is also used for saving target onset/offset times)&amp;#10;mouse.mouseClock.reset(0)&amp;#10;&amp;#10;if trial_type == 'once':&amp;#10;    # reset 'once' type trial countdown timer (counting in frames) counting down&amp;#10;    # time until next target should be shown&amp;#10;    once_inter_target_counter = ONCE_INTER_TARGET_DUR&amp;#10;    # reset 'once' type trial target onset/offset times lists&amp;#10;    once_target_onset_times = [win.getFutureFlipTime(clock=mouse.mouseClock)]&amp;#10;    once_target_offset_times = []&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if not ready_continue:&amp;#10;    trial_context_img.draw()&amp;#10;    trial_target_img.draw()&amp;#10;    rect_trial_target.draw()&amp;#10;    rect_trial_context.draw()&amp;#10;    # draw crosses where participant has clicked&amp;#10;    for position in cross_position_list:&amp;#10;        cross_stimulus.pos = position&amp;#10;        cross_stimulus.draw() &amp;#10;&amp;#10;&amp;#10;rectangle_continue.draw()&amp;#10;text_continue.draw()&amp;#10;&amp;#10;# note that only data about trial clicks (clicks done before continue&amp;#10;# button appears, and within context image are) are saved to output &amp;#10;# csv file&amp;#10;buttons = mouse.getPressed()&amp;#10;if buttons != prevButtonState:  # button state changed?&amp;#10;    prevButtonState = buttons&amp;#10;    # state changed to a new click, and sufficient time has&amp;#10;    # passed since new target presentation&amp;#10;    if sum(buttons) &gt; 0 and ((t - target_start_time) &gt;= BLOCKING_DUR): &amp;#10;        x, y = mouse.getPos()&amp;#10;        cross_position_list.append((x, y))&amp;#10;        # if continue button is already shown and trial is otherwise&amp;#10;        # over&amp;#10;        if ready_continue:&amp;#10;            if rectangle_continue.contains(mouse):&amp;#10;                continueRoutine = False&amp;#10;        # if click within context image area&amp;#10;        elif trial_context_img.contains(mouse): &amp;#10;            correct_click = False&amp;#10;            click_counter += 1&amp;#10;            # if this trial has multiple targets, each present at only&amp;#10;            # one location in context image&amp;#10;            if trial_type == 'once':&amp;#10;                target_ellipsis = [ell for ell in trial_ellipses if ell.fname == target_filenames[ellipsis_counter]][0]&amp;#10;                if target_ellipsis.contains(mouse):&amp;#10;                    correct_counter += 1&amp;#10;                    correct_click = True&amp;#10;                    mouse.clicked_name.append(target_ellipsis.fname)&amp;#10;                # save current time __since trial start__ (hence, using the&amp;#10;                # 'mouse clock') as target image offset time&amp;#10;                once_target_offset_times.append(mouse.mouseClock.getTime())&amp;#10;                next_img_time = True&amp;#10;            else:&amp;#10;                # list of indices of ellipses to be removed&amp;#10;                rm_ell_inds = []&amp;#10;                # go through all ellipses and check for each one if mouse&amp;#10;                # was clicked within it&amp;#10;                for ell_ind in range(len(nonclicked_ellipses)):&amp;#10;                    if nonclicked_ellipses[ell_ind].contains(mouse):&amp;#10;                        correct_counter += 1&amp;#10;                        correct_click = True&amp;#10;                        mouse.clicked_name.append(nonclicked_ellipses[ell_ind].fname)&amp;#10;                        rm_ell_inds.append(ell_ind)&amp;#10;                # remove clicked ellipses&amp;#10;                for rm_ell_ind in rm_ell_inds:&amp;#10;                    nonclicked_ellipses.pop(rm_ell_ind)&amp;#10;                    # decrement all 'remove indices' that are higher&amp;#10;                    # than the index whose element was just removed&amp;#10;                    rm_ell_inds = [x-1 if x&gt;rm_ell_ind else x for x in rm_ell_inds]&amp;#10;            if not correct_click:&amp;#10;                mouse.clicked_name.append('outside_of_valid_targets')&amp;#10;            buttons = mouse.getPressed()&amp;#10;            mouse.time.append(mouse.mouseClock.getTime())&amp;#10;            mouse.x.append(x)&amp;#10;            mouse.y.append(y)&amp;#10;&amp;#10;if trial_type == 'once':&amp;#10;    # has the response time (minus the time where &amp;#10;    # the target is hidden) for this target image run out?&amp;#10;    if (t - target_start_time) &gt;= time_limit and not next_img_time:&amp;#10;        # hide the target&amp;#10;        trial_target_img.opacity = 0&amp;#10;        once_inter_target_counter -= 1&amp;#10;    # has response time (including time where target is hidden)&amp;#10;    # for this target image run out?&amp;#10;    if once_inter_target_counter &lt;= 0:&amp;#10;        # save current time __counting from trial onset__ (hence using the&amp;#10;        # 'mouse clock') as target image offset time&amp;#10;        once_target_offset_times.append(mouse.mouseClock.getTime())&amp;#10;        # reset 'once' type trial countdown timer &amp;#10;        once_inter_target_counter = ONCE_INTER_TARGET_DUR&amp;#10;        next_img_time = True&amp;#10;    if next_img_time:&amp;#10;        # make sure the target is displayed (in case it was &amp;#10;        # hidden due to trial time running out)&amp;#10;        trial_target_img.opacity = 1&amp;#10;        ellipsis_counter += 1&amp;#10;        if ellipsis_counter &gt;= len(target_filenames):&amp;#10;            # the trial is considered to be ended as soon as the&amp;#10;            # continue button appears, hence the time here is&amp;#10;            # stored as trial end time&amp;#10;            trial_end_time = globalClock.getTime()&amp;#10;            ready_continue = True&amp;#10;            # show continue button&amp;#10;            rectangle_continue.opacity = 1&amp;#10;            text_continue.text = CONTINUE_TXT&amp;#10;        else:&amp;#10;            # save next flip time __counting from trial onset__ (hence using the&amp;#10;            # 'mouse clock') as target image onset time&amp;#10;            once_target_onset_times.append(win.getFutureFlipTime(clock=mouse.mouseClock))&amp;#10;            trial_target_img = target_img_dict[target_filenames[ellipsis_counter]]&amp;#10;        next_img_time = False&amp;#10;        target_start_time = t&amp;#10;else:&amp;#10;    # has time run out, or all the target areas been clicked?&amp;#10;    if t &gt;= time_limit or len(nonclicked_ellipses)==0:&amp;#10;        if not ready_continue:&amp;#10;            # the trial is considered to be ended as soon as the&amp;#10;            # continue button appears, hence the time here is&amp;#10;            # stored as trial end time&amp;#10;            trial_end_time = globalClock.getTime()&amp;#10;            ready_continue = True&amp;#10;            rectangle_continue.opacity = 1&amp;#10;            text_continue.text = CONTINUE_TXT&amp;#10;&amp;#10;if DEBUG_ON:&amp;#10;    for ell in trial_ellipses:&amp;#10;        ell.draw()" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="trial_counter += 1&amp;#10;&amp;#10;# save trial data&amp;#10;thisExp.addData('trial_type', trial_type)&amp;#10;thisExp.addData('context_img_fname', context_filename)&amp;#10;thisExp.addData('mouse.x', mouse.x)&amp;#10;thisExp.addData('mouse.y', mouse.y)&amp;#10;thisExp.addData('mouse.time', mouse.time)&amp;#10;thisExp.addData('mouse.clicked_target', mouse.clicked_name)&amp;#10;thisExp.addData('num_correct', correct_counter)&amp;#10;thisExp.addData('num_clicks', click_counter)&amp;#10;thisExp.addData('trial_start_time', trial_start_time)&amp;#10;thisExp.addData('trial_end_time', trial_end_time)&amp;#10;&amp;#10;if trial_type == 'once':&amp;#10;    thisExp.addData('once_target_start_times', once_target_onset_times)&amp;#10;    thisExp.addData('once_target_end_times', once_target_offset_times)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_trial" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_trial_timekeeper">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_trial_timekeeper" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="start">
+      <TextComponent name="text_start">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="$TXT_SIZE_M" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_start" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$START_TXT_INST" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_start">
+        <Param val="rectangle_continue" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_start" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="never" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="" valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$read_audio_sound_dict['read_start']['dur']" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <CodeComponent name="code_start">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="text_continue.text = START_TXT_BTN;&amp;#10;read_sound = read_audio_sound_dict[&quot;read_start&quot;][&quot;sound&quot;];&amp;#10;read_dur = read_audio_sound_dict[&quot;read_start&quot;][&quot;dur&quot;];&amp;#10;read_sound.play();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="text_continue.text = START_TXT_BTN&amp;#10;&amp;#10;# fetch audio of read instructions and its duration&amp;#10;read_sound = read_audio_sound_dict['read_start']['sound']&amp;#10;read_dur = read_audio_sound_dict['read_start']['dur']&amp;#10;# start playing instructions&amp;#10;read_sound.play()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# if read instructions audio has finished playing&amp;#10;if tThisFlip &gt;= read_dur:&amp;#10;    rectangle_continue.draw()&amp;#10;    text_continue.draw()&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((tThisFlip &gt;= read_dur)) {&amp;#10;    rectangle_continue.draw();&amp;#10;    text_continue.draw();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="text_continue.text = CONTINUE_TXT;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="text_continue.text = CONTINUE_TXT" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_start" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="text_end">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="$TXT_SIZE_M" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_end" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$END_TXT" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_register_exprun">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="# register that participant has run whole experiment successfully&amp;#10;import csv&amp;#10;testreg_dir_path = os.path.join('..', '..', 'exp_run_registration')&amp;#10;if not os.path.isdir(testreg_dir_path):&amp;#10;    os.mkdir(testreg_dir_path)&amp;#10;testreg_fpath = os.path.join(testreg_dir_path, f&quot;{expInfo['participant']}_expreg.csv&quot;)&amp;#10;add_header = not os.path.isfile(testreg_fpath)&amp;#10;with open(testreg_fpath, 'a') as csvfile:&amp;#10;    testreg_writer = csv.writer(csvfile)&amp;#10;    if add_header:&amp;#10;        testreg_writer.writerow([f&quot;{expInfo['participant']}_run_experiments&quot;])&amp;#10;    testreg_writer.writerow([f&quot;{expInfo['expName']}&quot;])&amp;#10;" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_register_exprun" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="trial_instruction">
+      <TextComponent name="text_trialinstruction">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="$TRIALINST_TXT_HEIGHT" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_trialinstruction" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (frames)" valType="str" updates="None" name="stopType"/>
+        <Param val="TRIALINST_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$trialinstruction_mess" valType="extendedStr" updates="set every repeat" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_trialinstruction">
+        <Param val="def get_resize_factor(orig_w, orig_h, max_w, max_h):&amp;#10;    &quot;&quot;&quot;&amp;#10;    Returns a resize factor based on former width/height and maximum&amp;#10;    allowed width/height.&amp;#10;    &quot;&quot;&quot;&amp;#10;    if ((orig_h / max_h) &gt; (orig_w / max_w)):&amp;#10;        return max_h/orig_h&amp;#10;    else:&amp;#10;        return max_w/orig_w&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# specify path to where context image sizes specification is located&amp;#10;context_img_spec_path = os.path.join('stimuli', 'context_img_sizes.csv')&amp;#10;&amp;#10;context_img_df = pd.read_csv(context_img_spec_path)&amp;#10;&amp;#10;# form a dictionary of context images, where image filenames are the&amp;#10;# keys&amp;#10;context_img_dict = {}&amp;#10;for i in range(len(context_img_df)):&amp;#10;    row = context_img_df.iloc[i]&amp;#10;    fname = row['filename']&amp;#10;    stim_name = fname.replace('.csv', '')&amp;#10;    orig_w_deg = px_to_deg(row['width_px'])&amp;#10;    orig_h_deg = px_to_deg(row['height_px'])&amp;#10;    context_resize_factor = get_resize_factor(&amp;#10;        orig_w_deg, &amp;#10;        orig_h_deg,&amp;#10;        TRIAL_CONTEXT_MAX_WIDTH,&amp;#10;        TRIAL_CONTEXT_MAX_HEIGHT&amp;#10;    )&amp;#10;    set_w_deg = orig_w_deg * context_resize_factor&amp;#10;    set_h_deg = orig_h_deg * context_resize_factor&amp;#10;    context_img_dict[fname] = {&amp;#10;        'stim': visual.ImageStim(&amp;#10;            win=win,&amp;#10;            name= f'image_{stim_name}_target', &amp;#10;            image=os.path.join(&quot;stimuli&quot;, &quot;trial&quot;, &quot;context&quot;, fname), &amp;#10;            mask=None,&amp;#10;            ori=0, &amp;#10;            pos=(0, TRIAL_CONTEXT_Y), &amp;#10;            size=(set_w_deg, set_h_deg),&amp;#10;            color=[1,1,1], &amp;#10;            colorSpace='rgb', &amp;#10;            opacity=1,&amp;#10;            flipHoriz=False, &amp;#10;            flipVert=False,&amp;#10;            texRes=512, &amp;#10;            interpolate=True, &amp;#10;            depth=-2.0&amp;#10;        ),&amp;#10;        'resize_factor': context_resize_factor&amp;#10;    }&amp;#10;&amp;#10;# form dictionary of target images&amp;#10;target_dir_path = os.path.join('stimuli', 'trial', 'target')&amp;#10;target_fnames = [x for x in os.listdir(target_dir_path) if not x.startswith('.') and x.endswith('.jpg')]&amp;#10;target_img_dict = {}&amp;#10;for fname in target_fnames:&amp;#10;    stim_name = fname.replace('.csv', '')&amp;#10;    target_img_dict[fname]  = visual.ImageStim(&amp;#10;        win=win,&amp;#10;        name= f'image_{stim_name}_target', &amp;#10;        image=os.path.join(target_dir_path, fname), &amp;#10;        mask=None,&amp;#10;        ori=0, &amp;#10;        pos=(0, TRIAL_TARGET_Y), &amp;#10;        size=(trial_target_width, trial_target_height),&amp;#10;        color=[1,1,1], &amp;#10;        colorSpace='rgb', &amp;#10;        opacity=1,&amp;#10;        flipHoriz=False, &amp;#10;        flipVert=False,&amp;#10;        texRes=512, &amp;#10;        interpolate=True, &amp;#10;        depth=-2.0&amp;#10;    )&amp;#10;&amp;#10;# get trial stimuli/order specifications for this participant, based on group, and&amp;#10;# put in a list of dictionaries&amp;#10;group_no = expInfo['order_group_number']&amp;#10;if not group_no.isnumeric() or int(float(group_no)) not in range(1, 5):&amp;#10;    err_mess = 'Invalid group number! Must be a single digit between 1-4. Please try again.'&amp;#10;    print(err_mess)&amp;#10;    raise IndexError(err_mess)&amp;#10;group_no = int(float(group_no))&amp;#10;spec_path = os.path.join('order_specifications', f'trial_stim_specifications_{group_no}.csv')&amp;#10;trial_df = pd.read_csv(spec_path)&amp;#10;trial_ls = []&amp;#10;for i in range(len(trial_df)):&amp;#10;    row = trial_df.iloc[i]&amp;#10;    trial_dict = {&amp;#10;        'context_fname': row['context_filename'],&amp;#10;        'target_fnames': eval(row['target_filenames']),&amp;#10;        'type': row['type']&amp;#10;    }&amp;#10;    trial_ls.append(trial_dict)&amp;#10;&amp;#10;&amp;#10;# border stimuli&amp;#10;rect_trial_target = visual.Rect(&amp;#10;    win=win, name='rect_trial_target',units='deg', &amp;#10;    size=(trial_target_width, trial_target_height),&amp;#10;    ori=0, pos=(0, TRIAL_TARGET_Y),&amp;#10;    lineWidth=2, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=None, fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True)&amp;#10;&amp;#10;rect_trial_context = visual.Rect(&amp;#10;    win=win, name='rect_trial_context',units='deg', &amp;#10;    size=(TRIAL_CONTEXT_MAX_WIDTH, TRIAL_CONTEXT_MAX_HEIGHT),&amp;#10;    ori=0, pos=(0, TRIAL_CONTEXT_Y),&amp;#10;    lineWidth=2, lineColor=[-1,-1,-1], lineColorSpace='rgb',&amp;#10;    fillColor=None, fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True)&amp;#10;&amp;#10;# initialize trial counter&amp;#10;trial_counter = 0&amp;#10;&amp;#10;# dictionary pairing trial types and which message to&amp;#10;# show&amp;#10;type_mess_dict = {&amp;#10;    'once': ONCE_TXT,&amp;#10;    'repeat': REP_TXT,&amp;#10;    'heap': REP_TXT&amp;#10;}&amp;#10;&amp;#10;# initialize trial instruction message variable (to prevent undefined variable error)&amp;#10;trial_type = trial_ls[trial_counter]['type']&amp;#10;trialinstruction_mess = type_mess_dict[trial_type]&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# reset mouse save data attributes&amp;#10;mouse.x = []&amp;#10;mouse.y = []&amp;#10;mouse.time = []&amp;#10;mouse.clicked_name = []&amp;#10;&amp;#10;# reset counters&amp;#10;correct_counter = 0&amp;#10;click_counter = 0&amp;#10;ellipsis_counter = 0 # for multi-target trials, keeps track of which target is active&amp;#10;&amp;#10;# reset target start time keeper&amp;#10;target_start_time = 0&amp;#10;&amp;#10;# reset variable indicating if routine is ready for showing&amp;#10;# continue button&amp;#10;ready_continue = False&amp;#10;&amp;#10;# reset variable indicating if it's time to switch to the next target&amp;#10;# image (if this trial has multiple target types)&amp;#10;next_img_time = False&amp;#10;&amp;#10;# reset continue button&amp;#10;rectangle_continue.opacity = 0&amp;#10;# empty continue text component's text, which is filled&amp;#10;# in once participant is allowed to continue&amp;#10;# (can't simply change opacity of thext text because of a PsychoPy bug)&amp;#10;text_continue.text = &quot;&quot;&amp;#10;&amp;#10;# reset list of cross drawing positions&amp;#10;cross_position_list.clear()&amp;#10;&amp;#10;# clear the list of ellipses stimuli, to make it ready for this trial&amp;#10;trial_ellipses.clear()&amp;#10;# specify the context x/y coordinate offsets&amp;#10;context_y = TRIAL_CONTEXT_Y&amp;#10;# extract the dictionary of trial information&amp;#10;trial_dict = trial_ls[trial_counter]&amp;#10;context_filename = trial_dict['context_fname']&amp;#10;target_filenames = trial_dict['target_fnames']&amp;#10;trial_type = trial_dict['type']&amp;#10;&amp;#10;# set the context and initial target images&amp;#10;trial_context_img = context_img_dict[context_filename]['stim']&amp;#10;trial_target_img =  target_img_dict[target_filenames[0]]&amp;#10;# extract the resize factor for this routine&amp;#10;resize_factor = context_img_dict[context_filename]['resize_factor']&amp;#10;&amp;#10;# set time limit (based on whether only one type of target is used, or&amp;#10;# multiple types of targets are used)&amp;#10;time_limit = SINGLE_TARGET_DUR if len(target_filenames)==1 else PER_TARGET_MAX_DUR&amp;#10;&amp;#10;# find which row indices in the ellipses_df that correspond to this trial's&amp;#10;# target ellipses data&amp;#10;df_indices = list(ellipses_df[ellipses_df['filename'] == context_filename].index)&amp;#10;for index in df_indices:&amp;#10;    center_x = px_to_deg(ellipses_df.loc[index, 'center_x']) * resize_factor&amp;#10;    center_y = px_to_deg(ellipses_df.loc[index, 'center_y']) * resize_factor + context_y&amp;#10;    xaxis_r = px_to_deg(ellipses_df.loc[index, 'xaxis_r']) * resize_factor&amp;#10;    yaxis_r = px_to_deg(ellipses_df.loc[index, 'yaxis_r']) * resize_factor&amp;#10;    orientation = ellipses_df.loc[index, 'orientation']&amp;#10;    new_ellipsis = make_pp_ellipsis(&amp;#10;        center_x, &amp;#10;        center_y, &amp;#10;        xaxis_r, &amp;#10;        yaxis_r, &amp;#10;        orientation&amp;#10;    )&amp;#10;    new_ellipsis.fname = ellipses_df.loc[index, 'target_fname']&amp;#10;    trial_ellipses.append(new_ellipsis)&amp;#10;&amp;#10;# make a shallow copy of ellipses list, from which ellipses&amp;#10;# will be plucked as soon as they are clicked&amp;#10;nonclicked_ellipses = trial_ellipses[:]&amp;#10;&amp;#10;# set instruction message to display&amp;#10;trialinstruction_mess = type_mess_dict[trial_type]&amp;#10;text_trialinstruction.setText(trialinstruction_mess)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_trialinstruction" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="popout_instruction">
+      <TextComponent name="text_popoutinst">
+        <Param val="$TXT_COL_NEUTRAL" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="TXT_SIZE_M" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_popoutinst" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, PREPOPOUT_TXT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_TXT_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$POPOUT_TXT" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="$TXT_WRAP_WIDTH" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_popoutinst">
+        <Param val="# note that this routine, for showing popout instructions&amp;#10;# and changing trial/target durations,&amp;#10;# is set to only be shown/run when 6 trials have passed,&amp;#10;# since trials 7 and onwards are 'popout' trials. the condtional&amp;#10;# logic for skipping this routine otherwise is implemented&amp;#10;# using conditional logic for the 'nReps' parameter of the enclosing&amp;#10;# loop, as suggested on the PsychoPy forums:&amp;#10;# https://discourse.psychopy.org/t/implementing-conditional-routines/15193/2&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="SINGLE_TARGET_DUR = SINGLE_TARGET_DUR_POPOUT;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# here, the value of a supposed 'constant' is actually changed.&amp;#10;# this really shouldn't be done. however, the 'popout' trials were&amp;#10;# requested to be added mid-study and little time was given for&amp;#10;# accomplishing this task. hence, this piece of code is used&amp;#10;# as a shortcut.&amp;#10;SINGLE_TARGET_DUR = SINGLE_TARGET_DUR_POPOUT" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_popoutinst" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image_showpopout1_nonmarked">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/train/train3_showpopout_nonmarked.jpg" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="image_showpopout1_nonmarked" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(TRAIN3_SHOWPOPOUT_X, TRAIN3_SHOWPOPOUT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(train3_showpopout_width, train3_showpopout_height)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_NONMARKED_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_showpopout1_marked">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/train/train3_showpopout_marked.jpg" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="image_showpopout1_marked" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(TRAIN3_SHOWPOPOUT_X, TRAIN3_SHOWPOPOUT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(train3_showpopout_width, train3_showpopout_height)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$INST_SHOWPOPOUT_NONMARKED_DUR" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_MARKED_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <SoundComponent name="sound_popoutinst_readinst">
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="20.135" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="sound_popoutinst_readinst" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$os.path.join(READ_AUDIO_DIR_PATH, READ_AUDIO_INTRO_FNAME)" valType="str" updates="constant" name="sound"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$READ_AUDIO_INTRO_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="1" valType="code" updates="constant" name="volume"/>
+      </SoundComponent>
+      <ImageComponent name="image_showpopout2_nonmarked">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/train/train4_showpopout_nonmarked.jpg" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="image_showpopout2_nonmarked" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(TRAIN4_SHOWPOPOUT_X, TRAIN4_SHOWPOPOUT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(train4_showpopout_width, train4_showpopout_height)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_NONMARKED_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_showpopout2_marked">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/train/train4_showpopout_marked.jpg" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="image_showpopout2_marked" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(TRAIN4_SHOWPOPOUT_X, TRAIN4_SHOWPOPOUT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(train4_showpopout_width, train4_showpopout_height)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$INST_SHOWPOPOUT_NONMARKED_DUR" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_MARKED_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_showpopout3_nonmarked">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/train/train5_showpopout_nonmarked.jpg" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="image_showpopout3_nonmarked" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(TRAIN5_SHOWPOPOUT_X, TRAIN5_SHOWPOPOUT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(train5_showpopout_width, train5_showpopout_height)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_NONMARKED_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="image_showpopout3_marked">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/train/train5_showpopout_marked.jpg" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="image_showpopout3_marked" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(TRAIN5_SHOWPOPOUT_X, TRAIN5_SHOWPOPOUT_Y)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(train5_showpopout_width, train5_showpopout_height)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$INST_SHOWPOPOUT_NONMARKED_DUR" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$INST_SHOWPOPOUT_MARKED_DUR" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="setup"/>
+    <Routine name="intro"/>
+    <Routine name="train_1"/>
+    <Routine name="train_2"/>
+    <Routine name="start"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="11" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_instruction"/>
+    <Routine name="trial"/>
+    <LoopInitiator loopType="TrialHandler" name="show_popout_inst">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="int(trial_counter == 6)" valType="code"/>
+      <Param name="name" updates="None" val="show_popout_inst" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="popout_instruction"/>
+    <LoopTerminator name="show_popout_inst"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>

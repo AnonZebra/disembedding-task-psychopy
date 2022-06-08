@@ -1,0 +1,69 @@
+# intro screen text
+INTRO_TXT = (
+    "I de här uppgifterna ska du hitta figurer i olika bilder. " 
+    "Det finns flera figurer i varje bild. " 
+    "I två av bilderna kommer figurerna som du ska hitta vara olika. " 
+    "I de fyra andra bilderna ska du hitta samma figur som återkommer " 
+    "flera gånger i bilden. Figuren som du ska leta efter är placerad " 
+    "ovanför varje bild. Figurens form skall vara exakt densamma som i " 
+    "exemplet ovanför bilden men storleken och orienteringen kan skifta.\n\n"
+    "Varje gång du hittar en figur klickar du på den."
+)
+
+# continue button text
+CONTINUE_TXT = "Fortsätt"
+
+# first training 'trial' instructions text
+TRAIN1_TXT_INST = (
+    "Nedan ser du ett exempel på hur uppgiften går till. "
+    "Försök att hitta figuren inom bilden som har exakt " 
+    "samma form som figuren ovanför och klicka på den."
+)
+
+# first training 'trial' feedback for correct response
+TRAIN1_TXT_CORR = (
+    "Det var rätt!"
+)
+
+# first training 'trial' feedback for incorrect response
+TRAIN1_TXT_INCORR = (
+    "Det blev fel: figuren du ska hitta ska ha "
+    "exakt samma form som figuren ovanpå."
+)
+
+# second training 'trial' instructions text
+TRAIN2_TXT_INST = (
+    "Nedan ser du ett annat exempel. " 
+    "Den här gången är figuren gömd flera gånger " 
+    "och har olika storlek och vinkel. "
+    "Försök att hitta alla figurer som har exakt "
+    "samma form som figuren ovanför och klicka på dem."
+)
+
+# second training 'trial' feedback for correct response
+TRAIN2_TXT_CORR = (
+    "Bra! Du hittade alla figurer och klickade inte på fel figur."
+)
+
+# second training 'trial' feedback for incorrect response
+TRAIN2_TXT_INCORR = (
+    "Du hittade alla figurer men klickade också på fel figur. " 
+    "Figuren du ska hitta ska ha exakt samma form " 
+    "som figuren ovanpå."
+)
+
+# (after-training and immediately before first 'real' trial)
+# start screen instructions text
+START_TXT_INST = (
+    "Nu börjar uppgiften. Försök att svara så " 
+    "snabbt och klicka så exakt på figuren som möjligt. "
+    "Ett blått kryss visas för varje gång du klickar "
+    "oavsett om du klickar rätt eller fel. "
+    "Det är för att hjälpa dig att komma ihåg vilka "
+    "figurer du redan hittat."
+)
+
+# start test button text
+START_TXT_BTN = (
+    "Starta"
+)

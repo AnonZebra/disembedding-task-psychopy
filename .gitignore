@@ -1,0 +1,10 @@
+*.pptx
+__pycache__/
+data/
+notes/
+TEMP_*
+*_lastrun.py
+.~*
+.DS_Store
+pre_2021_10_11_version/
+*.swp

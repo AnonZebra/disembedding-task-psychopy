@@ -1,0 +1,12 @@
+context_filename,target_filenames,type
+repeat1_context.jpg,['repeat1_target.jpg'],repeat
+once1_context.jpg,"['once1_target1.jpg', 'once1_target2.jpg', 'once1_target3.jpg', 'once1_target4.jpg', 'once1_target5.jpg', 'once1_target6.jpg', 'once1_target7.jpg', 'once1_target8.jpg', 'once1_target9.jpg', 'once1_target10.jpg', 'once1_target11.jpg', 'once1_target12.jpg']",once
+heap1_context.jpg,['heap1_target.jpg'],heap
+once2_context.jpg,"['once2_target1.jpg', 'once2_target2.jpg', 'once2_target3.jpg', 'once2_target4.jpg', 'once2_target5.jpg', 'once2_target6.jpg', 'once2_target7.jpg', 'once2_target8.jpg', 'once2_target9.jpg', 'once2_target10.jpg', 'once2_target11.jpg', 'once2_target12.jpg']",once
+heap2_context.jpg,['heap2_target.jpg'],heap
+repeat2_context.jpg,['repeat2_target.jpg'],repeat
+popout_repeat_A_1_context.jpg,['popout_repeat_A_1_target.jpg'],repeat
+popout_repeat_B_1_context.jpg,['popout_repeat_B_1_target.jpg'],repeat
+popout_once_A_context.jpg,"['popout_once_A_target6.jpg', 'popout_once_A_target3.jpg', 'popout_once_A_target10.jpg', 'popout_once_A_target2.jpg', 'popout_once_A_target8.jpg', 'popout_once_A_target12.jpg', 'popout_once_A_target5.jpg', 'popout_once_A_target4.jpg', 'popout_once_A_target1.jpg', 'popout_once_A_target11.jpg', 'popout_once_A_target9.jpg', 'popout_once_A_target7.jpg']",once
+popout_repeat_A_2_context.jpg,['popout_repeat_A_2_target.jpg'],repeat
+popout_repeat_B_2_context.jpg,['popout_repeat_B_2_target.jpg'],repeat
