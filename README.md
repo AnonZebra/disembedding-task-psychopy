@@ -40,7 +40,13 @@ Trial order is determined by the selected 'order group number' - see the 'order_
 All trial order specifications put all the 'popout' trials at the end of the experiment. All orders also ensure one each of 'repeat'(R)/'heap'(H)/'once'(O) trials occurs before any of the types may be presented. Lastly, all orders ensure that trials of the same type (except 'popout') never occur 'back-to-back'. E.g. 'R-H-O-H-O-R' is a valid order, but orders like 'R-H-O-O-H-R' or 'R-H-R-O-H-O' are avoided.
 
 ## Stimuli
-Trial stimuli images are found in 'stimuli/trial'. Specifications regarding where targets are located (regions of interested, ROI's) are found in 'stimuli/stimuli_roi_coordinates.csv'.
+Trial stimuli images are found in 'stimuli/trial'. Specifications regarding where targets are located (regions of interest, ROI's) are found in 'stimuli/stimuli_roi_coordinates.csv'.
+
+Stimuli images were created by Janina Neufeld and are located in the 'stimuli' directory. For two of the 'trial context' images ('once1_context.jpg' and 'once2_context.jpg'), background images from [depositphotos.com](depositphotos.com) were used. For this reason, these two context images have been replaced with black backgrounds in this shareable version of the experiment. To get the necessary images:
+1. Go to depositphotos.com and purchase the two background images that were originally used:
+    - https://depositphotos.com/284133674/stock-illustration-wooden-sign-cartoon.html (stock illustration wooden sign cartoon)
+    - https://depositphotos.com/326598326/stock-illustration-tent-and-camping-vector-design.html (stock illustration tent and camping vector design)
+2. Send an e-mail to janina.neufeld-at-ki.se or elisabeth.nilsson.jobs-at-ki.se to request the context images.
 
 ## Translating the experiment
 Both written and recorded instructions are in Swedish. If you wish to translate the experiment: 
@@ -57,6 +63,6 @@ Many aspects of the experiment (eg trial durations) can be reconfigured by openi
 This experiment was only developed for local use, i.e. not with online use in mind. Since it uses much custom Python code, it is unlikely that one could easily convert it to JavaScript for being run online.
 
 ## Attribution
-Stimuli, instructions (including recordings) and general outline of experiment flow were created by Elisabeth Nilsson Jobs and Janina Neufeld. Instruction recordings were performed by Elisabeth Nilsson Jobs. All implementation details were worked out and applied in PsychoPy by Lowe Wilsson. 
+Stimuli were created by Janina Neufeld (in two cases using depositphotos.com images - see 'Stimuli' section), while discussing them with Elisabeth Nilsson Jobs. Instructions and general outline of experiment flow were created by Nilsson Jobs and Neufeld. Instruction recordings were performed by Elisabeth Nilsson Jobs. All implementation details were worked out and applied in PsychoPy by Lowe Wilsson. 
 
-You are currently _not_ allowed to use this experiment in a research project (or for commercial purposes) unless explicit permission is given by Jobs and/or Neufeld.
+You are free to use and modify this project for non-commercial purposes (e.g. research is OK) with attribution. If you publish articles or share other work based on this project (e.g. if you share a modified version of it), you are required to include a link to this project's GitHub repository: [https://github.com/AnonZebra/disembedding-task-psychopy](https://github.com/AnonZebra/disembedding-task-psychopy).
